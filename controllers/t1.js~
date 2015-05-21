@@ -1,0 +1,22 @@
+var Utils = require('../lib/Utils');
+
+exports.getTitles = function(req, res) {
+    if (req.query.address) {
+	if (req.query.address instanceof Array) {
+	    // TODO: implement a control flow mechanism
+	    while (
+		Utils.getTitle(addr, function(title) {
+
+		});
+	    });
+	}
+	else {
+	    Utils.getTitle(req.query.address, function(title) {
+		res.send({title: title});
+	    });
+	}
+    }
+    else {
+	res.send({message: "address parameter missing"}, 400);
+    }
+};

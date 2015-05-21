@@ -7,10 +7,6 @@ To install the dependencies:
 
     npm install
 
-Copy database.sample.json to database.json and fix your user, password and host settings:
-
-    cp config/database.sample.json config/database.json
-
 ## Start Server
 
 To start the server:

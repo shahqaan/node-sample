@@ -1,9 +1,6 @@
 README
 ------
 
-* Purpose of this generated application is to give you a skeleton to start working your code with
-* Use the guidelines taken by this application to develop your apps
-
 ## Install
 
 To install the dependencies:

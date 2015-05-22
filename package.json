@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "async": "0.9.0",
+    "baconjs": "^0.7.59",
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "express": "~4.2.0",
@@ -15,6 +16,7 @@
     "morgan": "~1.0.0",
     "request": "^2.55.0",
     "rsvp": "^3.0.18",
+    "rx": "^2.5.2",
     "supertest": "0.13.0"
   }
 }

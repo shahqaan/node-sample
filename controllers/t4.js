@@ -22,7 +22,7 @@ exports.getTitles = function(req, res) {
 	    }, function(err) {
 		console.log(err);
 		res.send({err: "error processing your request"}, 500);
-	    }, function(res) {
+	    }, function() {
 		res.send({titles: titles});
 	    });
 	    

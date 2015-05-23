@@ -11,7 +11,6 @@ exports.getTitles = function(req, res) {
 		    return addr
 		});
 
-	    // TODO: It feels like is working synchronously :-|
 	    var responseStream = requestStream
 		.flatMap(function(requestUrl) {
 		    return Rx.Observable.fromPromise(Utils.getTitlePromise(requestUrl));

@@ -28,10 +28,10 @@ Your code is divided into following directories:
     /config
         global.js -- contains global configuration: imports modules, sets layout, defines 404 method, set logger...
     /controllers
-		t1.js -- controller for test #1
-		t2.js -- controller for test #2
-		t2.js -- controller for test #3
-		t4.js -- controller for bonus test
+		t1.js 
+		t2.js
+		t2.js
+		t4.js
     /models
         N/A
     /public
